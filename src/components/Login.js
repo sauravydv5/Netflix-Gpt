@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import Header from "./Header";
 import { checkValidData } from "../utils/~"; //Correct for Named Export
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -13,10 +14,6 @@ const Login = () => {
   const handleButtonClick = () => {
     // validate the Form data
 
-    console.log(email.current.value);
-    console.log(password.current.value);
-    // console.log(Name.current.value);
-
     const message = checkValidData(
       email.current.value,
       password.current.value
@@ -24,7 +21,18 @@ const Login = () => {
     );
     setErrorMessage(message);
 
-    // sign in/signup
+    if (message) return;
+
+    // sign in/signup logic
+
+    if (!isSignInForm) {
+
+      // sign Up logic
+
+
+    } else {
+      // sign in logic
+    }
   };
 
   const toggleSignInForm = () => {
