@@ -4,13 +4,18 @@
 -configured tailwind css
 -Header
 -routing
-Login Form
-Singup form
+-Login Form
+-Singup form
 -form velidation
 -useRef hook
 -firebase setup
 -deploying our app production
 -create Signup user Account
+implement sign api
+-created redux store with userslice
+-implement sign out
+-Update Profile
+fetch from TMDB movies
 
 - configured tailwind css in our app
 
