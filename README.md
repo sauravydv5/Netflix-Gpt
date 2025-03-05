@@ -1,5 +1,6 @@
 # netflixa-app
 
+-netflix-app
 -create react app
 -configured tailwind css
 -Header
