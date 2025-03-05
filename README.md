@@ -16,6 +16,7 @@ implement sign api
 -implement sign out
 -Update Profile
 fetch from TMDB movies
+-Unscribed to the onauth Call back
 
 - configured tailwind css in our app
 
