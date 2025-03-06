@@ -3,7 +3,6 @@ import { API_OPTIONS } from "../utils/constants";
 import { addNowPlayingMovies } from "../utils/moviesSlice";
 import { useEffect } from "react";
 const useNowPlayingMovies = () => {
-  
   // fetch data from TMDB API & Update store
 
   const dispatch = useDispatch();
